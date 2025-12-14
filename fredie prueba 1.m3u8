@@ -1,7 +1,7 @@
 #EXTINF:-1 group-title="GUATEMALA",Canal 3
 #EXTVLCOPT:https://1.bp.blogspot.com/-kX675YqpJ8c/XR564VpbITI/AAAAAAAAIgE/6InHi9b2H1wXYdsmTvVAmoanYxjuHiQygCLcBGAs/s1600/tn23%2Bnoticas%2Ben%2Bvivo%2B-%2Bnoticias%2Bde%2Bguatemala.png
 https://d2qsan2ut81n2k.cloudfront.net/live/6b4f0a21-94d5-4fb6-9742-0f78923723cd/ts:abr.m3u8
-#EXTINF:-1 group-title="Guatemala",TN23
+#EXTINF:-1 group-title="GUATEMALA",TN23
 #EXTVLCOPT:https:https://www.youtube.com/channel/UCJcN367ge_Yo1p7b20_KSaA
 https://d2qsan2ut81n2k.cloudfront.net/live/0fa8c94f-fc47-466d-beda-8fc43bf963d7/ts:abr.m3u8
 #EXTINF:-1 group-title="GUATEMALA",Canal 7
@@ -294,7 +294,7 @@ https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
 #EXTINF:0,Azteca 7 (720p) [Geo-blocked]
 #EXTVLCOPT:network-caching=1000
 https://mdstrm.com/live-stream-playlist/609ad46a7a441137107d7a81.m3u8
-#EXTINF:-1 group-title="Guatemala",Azteca Guate
+#EXTINF:-1 group-title="GUATEMALA",Azteca Guate
 #EXTVLCOPT:network-caching=1000
 https://channel1-tva.duin.dev/tv/streaming/2/stream.m3u8
 #EXTINF:0,Azteca Honduras (720p)
@@ -5901,6 +5901,7 @@ https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20M
 #EXTINF:0,Las aventuras de los Super Hermanos Mario - E26 La Amenaza Venecia
 #EXTVLCOPT:network-caching=1000
 https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2026%20-%20La%20Amenaza%20Venecia.mp4
+
 
 
 
