@@ -306,4 +306,41 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 #EXTINF:-1 group-title="INFANTIL",CINE TERROR
 #EXTVLCOPT:https://images.pluto.tv/channels/5dcddf1ed95e740009fef7ab/featuredImage_1730472486481.jpg?auto=&q=70&fit=fill&fill=blur&ixlib=react-9.1.5
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 group-title="INFANTIL",DIOS TV KIDS
+#EXTVLCOPT:https://www.diosteve.org/wp-content/uploads/2022/04/235403078_2666022853698120_5407670730821234601_n-PhotoRoom.png
+https://s.emisoras.tv:8081/diostevekids/index.m3u8
+#EXTINF:-1 group-title="PELICULAS",CINE CANAL
+#EXTVLCOPT:https://upload.wikimedia.org/wikipedia/commons/e/e6/CinecanalLA.png
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
+#EXTINF:-1 group-title="TODA LA FAMILIA",BOREAL
+#EXTVLCOPT:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaGJvarLosjrXDU9DTkBDuOXtGlke7pLA9Q&s
+https://cdn.borealtelevision.com:3712/live/borealtelevisionhdlive.m3u8
+#EXTINF:-1 group-title="PELICULAS",AURORA MEDIA FILMS
+#EXTVLCOPT:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd-8374q9tsP1sHkylpdCP5FeTnQ-Rx-r-_g&s
+https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
+#EXTINF:-1 group-title="PELICULAS",CANAL 13
+#EXTVLCOPT:https://upload.wikimedia.org/wikipedia/commons/f/f2/Canal_13_Guatemala_Logo.svg
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
+#EXTINF:-1 group-title="PELICULAS",CINE CLASICO
+#EXTVLCOPT:https://images.pluto.tv/channels/64b9671cdac71b0008f371df/featuredImage.jpg
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41
+#EXTINF:-1 group-title="PELICULAS",CINE PREMIER
+#EXTVLCOPT:https://images.pluto.tv/channels/5cf968040ab7d8f181e6a68b/featuredImage.jpg?auto=&q=70&fit=fill&fill=blur&ixlib=react-9.1.5
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 group-title="PELICULAS",CINE TERROR
+#EXTVLCOPT:https://images.pluto.tv/channels/5d8d180092e97a5e107638d3/featuredImage.jpg
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 group-title="PELICULAS",SONY CHANNEL
+#EXTVLCOPT:https://static.wikia.nocookie.net/tvcable/images/3/31/SonyChannel2023LA.png/revision/latest?cb=20231115232012&path-prefix=es
+https://live.11-cdn.com/TeleOnce/3fc63fe00050c646635f16b071cd33e2.sdp/playlist.m3u8
+#EXTINF:-1 group-title="TODA LA FAMILIA",TELE ONCE
+#EXTVLCOPT:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTja4GTI5_LbsL3zn8RWzkukdw8xOLGu3lvxw&s
+https://live.11-cdn.com/TeleOnce/3fc63fe00050c646635f16b071cd33e2.sdp/playlist.m3u8
+#EXTINF:-1 group-title="TODA LA FAMILIA",TELEMUNDO
+#EXTVLCOPT:https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/1200px-Telemundo_logo_2018.svg.png
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_1080.m3u8
+#EXTINF:-1 group-title="INFANTIL",NICKELODEON
+#EXTVLCOPT:https://images.pluto.tv/channels/645952687cb4b100084ed52e/featuredImage_1755273609270.jpg
+http://179.51.136.19:8000/play/a0q4/index.m3u8?utc=1765122263&lutc=1765122759
+
 
