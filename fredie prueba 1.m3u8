@@ -10,9 +10,6 @@ https://d2qsan2ut81n2k.cloudfront.net/live/ce4f4915-0383-4e38-834b-6aca224d028e/
 #EXTINF:-1 group-title="GUATEMALA",Canal 27
 #EXTVLCOPT:https://es.wikipedia.org/wiki/Canal_27_%28Guatemala%29
 https://ch1-c27.duin.dev/hls/0/stream.m3u8
-#EXTINF:-1 group-title="GUATEMALA",GUATEVISION
-#EXTVLCOPT:https://www.prensalibre.com/wp-content/uploads/2018/12/a98dd3f9-34e5-43e8-991b-b1ec6df17fa9.jpg?quality=52&w=640
-https://live.eu-north-1b.cf.dmcdn.net/sec2(kYsjcK4x0p4eyFjtcauB1WrhZfTjrOLUJJo7OUSoYx7vf6c2naveVBcJAPQNxbZbS03nK8USWfMDyppTBTb0ogybdNtYRHOf9htSWSnUhqNKubuOZaM3qWquvAVWBWjo)/dm/3/x8lth64/s/live-480.m3u8
 #EXTINF:-1 group-title="GUATEMALA",A+GUATE
 #EXTVLCOPT:network-caching=1000
 https://channel2-tva.duin.dev/tv/streaming/2/stream.m3u8
@@ -363,6 +360,7 @@ https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/chunklist_w333270371.m3u8
 #EXTINF:-1 group-title="INFANTIL",CLAN INTERNACIONAL
 #EXTVLCOPT:https://upload.wikimedia.org/wikipedia/commons/8/81/Clan_logo.svg
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
+
 
 
 
