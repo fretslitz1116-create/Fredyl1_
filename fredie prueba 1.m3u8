@@ -10,6 +10,12 @@ https://d2qsan2ut81n2k.cloudfront.net/live/ce4f4915-0383-4e38-834b-6aca224d028e/
 #EXTINF:-1 group-title="GUATEMALA",Canal 27
 #EXTVLCOPT:https://es.wikipedia.org/wiki/Canal_27_%28Guatemala%29
 https://ch1-c27.duin.dev/hls/0/stream.m3u8
+#EXTINF:-1 group-title="GUATEMALA",GUATEVISION
+#EXTVLCOPT:https://www.prensalibre.com/wp-content/uploads/2018/12/a98dd3f9-34e5-43e8-991b-b1ec6df17fa9.jpg?quality=52&w=640
+https://live.eu-north-1b.cf.dmcdn.net/sec2(l8jhn6rz_YEfP7gdicW7sAqaPQi3dmwuDW6xG4E56UzAn1sPnzemNnsxKjL5N-rP--jtQfa-cnhWSsLP3v-53FcWsQnR-ZYxGjw2X8aWDuMl3hksS8Ne71jhtvO5raU4)/dm/3/x8lth64/s/live-380.m3u8
+#EXTINF:-1 group-title="GUATEMALA",A+GUATE
+#EXTVLCOPT:network-caching=1000
+https://channel2-tva.duin.dev/tv/streaming/2/stream.m3u8
 #EXTINF:-1 group-title="RELIGIOSO",3AB LATINO
 #EXTVLCOPT:network-caching=1000
 https://3abn.bozztv.com/3abn2/Lat_live/smil:Lat_live.smil/playlist.m3u8
@@ -348,6 +354,7 @@ http://179.51.136.19:8000/play/a0q4/index.m3u8?utc=1765122263&lutc=1765122759
 #EXTINF:-1 group-title="PELICULAS",CINE ADRENALINA
 #EXTVLCOPT:https:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ziueD51rBWLzjEPMpvxyw-elo_8CturHeQ&s
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
+
 
 
 
