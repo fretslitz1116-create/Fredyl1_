@@ -354,6 +354,88 @@ http://179.51.136.19:8000/play/a0q4/index.m3u8?utc=1765122263&lutc=1765122759
 #EXTINF:-1 group-title="PELICULAS",CINE ADRENALINA
 #EXTVLCOPT:https:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ziueD51rBWLzjEPMpvxyw-elo_8CturHeQ&s
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E1 Reptiles En El Jardín De Las Rosas
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2001%20-%20Reptiles%20En%20El%20Jard%C3%ADn%20De%20Las%20Rosas.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E2 Los Tramposos Mentirosos Intrigantes Koopas Ninjas Gig
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2002%20-%20Los%20Tramposos%20Mentirosos%20Intrigantes%20Koopas%20Ninjas%20Gig.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E3 Pequeños Diablillos Viajan Por El Tiempo
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2003%20-%20Peque%C3%B1os%20Diablillos%20Viajan%20Por%20El%20Tiempo.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E4 La bella Kootie Pie
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2004%20-%20La%20bella%20Kootie%20Pie.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E5 Reinado Tormentoso
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2005%20-%20Reinado%20Tormentoso.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E6 Nunca Koopaconfies En Un Koopa
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2006%20-%20Nunca%20Koopaconfies%20En%20Un%20Koopa.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E7 Mima A Tu Mami Momia Mario
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2007%20-%20Mima%20A%20Tu%20Mami%20Momia%2C%20Mario.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E8 Desventuras De Unas Niñeras
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2008%20-%20Desventuras%20De%20Unas%20Ni%C3%B1eras.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E9 Una Aventura Total Mente Mágica
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2009%20-%20Una%20Aventura%20Total%20Mente%20M%C3%A1gica.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E10 Que Hermanos
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2010%20-%20Que%20Hermanos.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E11 La Princesa Seta Para La Presidencia
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2011%20-%20La%20Princesa%20Seta%20Para%20La%20Presidencia.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E12 Papzilla
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2012%20-%20Papzilla.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E13 Kootie Pie y El Rock And Roll
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2013%20-%20Kootie%20Pie%20y%20El%20Rock%20And%20Roll.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E14 La Sirena Fea
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2014%20-%20La%20Sirena%20Fea.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E15 Baile En Koopa
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2015%20-%20Baile%20En%20Koopa.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E16 Las Desventuras del Buen Fontanero
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2016%20-%20Las%20Desventuras%20del%20Buen%20Fontanero.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E17 Los Enmascarados Demoledores
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2017%20-%20Los%20Enmascarados%20Demoledores.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E18 Enemigo Publico Numero 1
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2018%20-%20Enemigo%20Publico%20Numero%201.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E19 Todo el Mundo Arriba
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2019%20-%20Todo%20el%20Mundo%20Arriba.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E20 Rumores de Hongo
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2020%20-%20Rumores%20de%20Hongo.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E21 7 Continentes para 7 Koopas
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2021%20-%207%20Continentes%20para%207%20Koopas.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E22 Colores Verdaderos
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2022%20-%20Colores%20Verdaderos.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E23 Super Koopa
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2023%20-%20Super%20Koopa.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E24 Reciclen Koopa
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2024%20-%20Reciclen%20Koopa.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E25 La Vida es Difícil
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2025%20-%20La%20Vida%20es%20Dif%C3%ADcil.mp4
+#EXTINF:0,Las aventuras de los Super Hermanos Mario - E26 La Amenaza Venecia
+#EXTVLCOPT:network-caching=1000
+https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2026%20-%20La%20Amenaza%20Venecia.mp4
+
+
+
+
 
 
 
