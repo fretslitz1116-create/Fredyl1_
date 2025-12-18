@@ -354,90 +354,14 @@ http://179.51.136.19:8000/play/a0q4/index.m3u8?utc=1765122263&lutc=1765122759
 #EXTINF:-1 group-title="PELICULAS",CINE ADRENALINA
 #EXTVLCOPT:https:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ziueD51rBWLzjEPMpvxyw-elo_8CturHeQ&s
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E1 Reptiles En El Jardín De Las Rosas
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2001%20-%20Reptiles%20En%20El%20Jard%C3%ADn%20De%20Las%20Rosas.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E2 Los Tramposos Mentirosos Intrigantes Koopas Ninjas Gig
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2002%20-%20Los%20Tramposos%20Mentirosos%20Intrigantes%20Koopas%20Ninjas%20Gig.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E3 Pequeños Diablillos Viajan Por El Tiempo
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2003%20-%20Peque%C3%B1os%20Diablillos%20Viajan%20Por%20El%20Tiempo.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E4 La bella Kootie Pie
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2004%20-%20La%20bella%20Kootie%20Pie.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E5 Reinado Tormentoso
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2005%20-%20Reinado%20Tormentoso.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E6 Nunca Koopaconfies En Un Koopa
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2006%20-%20Nunca%20Koopaconfies%20En%20Un%20Koopa.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E7 Mima A Tu Mami Momia Mario
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2007%20-%20Mima%20A%20Tu%20Mami%20Momia%2C%20Mario.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E8 Desventuras De Unas Niñeras
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2008%20-%20Desventuras%20De%20Unas%20Ni%C3%B1eras.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E9 Una Aventura Total Mente Mágica
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2009%20-%20Una%20Aventura%20Total%20Mente%20M%C3%A1gica.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E10 Que Hermanos
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2010%20-%20Que%20Hermanos.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E11 La Princesa Seta Para La Presidencia
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2011%20-%20La%20Princesa%20Seta%20Para%20La%20Presidencia.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E12 Papzilla
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2012%20-%20Papzilla.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E13 Kootie Pie y El Rock And Roll
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2013%20-%20Kootie%20Pie%20y%20El%20Rock%20And%20Roll.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E14 La Sirena Fea
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2014%20-%20La%20Sirena%20Fea.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E15 Baile En Koopa
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2015%20-%20Baile%20En%20Koopa.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E16 Las Desventuras del Buen Fontanero
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2016%20-%20Las%20Desventuras%20del%20Buen%20Fontanero.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E17 Los Enmascarados Demoledores
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2017%20-%20Los%20Enmascarados%20Demoledores.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E18 Enemigo Publico Numero 1
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2018%20-%20Enemigo%20Publico%20Numero%201.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E19 Todo el Mundo Arriba
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2019%20-%20Todo%20el%20Mundo%20Arriba.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E20 Rumores de Hongo
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2020%20-%20Rumores%20de%20Hongo.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E21 7 Continentes para 7 Koopas
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2021%20-%207%20Continentes%20para%207%20Koopas.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E22 Colores Verdaderos
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2022%20-%20Colores%20Verdaderos.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E23 Super Koopa
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2023%20-%20Super%20Koopa.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E24 Reciclen Koopa
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2024%20-%20Reciclen%20Koopa.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E25 La Vida es Difícil
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2025%20-%20La%20Vida%20es%20Dif%C3%ADcil.mp4
-#EXTINF:0,Las aventuras de los Super Hermanos Mario - E26 La Amenaza Venecia
-#EXTVLCOPT:network-caching=1000
-https://archive.org/download/las-aventuras-de-los-super-hermanos-mario/Super%20Mario%20Bros%203%20-%2026%20-%20La%20Amenaza%20Venecia.mp4
-
-
-
-
-
-
-
+#EXTINF:-1 group-title="INFANTIL",XTREMA CARTOONS
+#EXTVLCOPT:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/def4d6a960fc00da49db5898c4a41e48.webp
+https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8?hls_ctx=nh131rp7
+#EXTINF:-1 group-title="INFANTIL",TIGUERITOS
+#EXTVLCOPT:data:image/jpeg;base64,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
+https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/chunklist_w333270371.m3u8
+#EXTINF:-1 group-title="INFANTIL",CLAN INTERNACIONAL
+#EXTVLCOPT:https://upload.wikimedia.org/wikipedia/commons/8/81/Clan_logo.svg
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
 
 
