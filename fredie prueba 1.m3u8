@@ -375,6 +375,10 @@ https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist108
 #EXTINF:-1 group-title="TODA LA FAMILIA",ESTRELLA TV
 #EXTVLCOPT:https://yt3.googleusercontent.com/fdo57PnjxxWE0yQb5DFROoXfjYaIkQSQLXyZL5E9_dURm_uvfmqKS7HW33uzMT82AKQFsi90tCQ=s900-c-k-c0x00ffffff-no-rj
 https://estrellatv-plex.amagi.tv/playlistR1080p.m3u8
+#EXTINF:-1 group-title="TODA LA FAMILIA",tigo sport
+#EXTVLCOPT:
+https://ahdk.vivocloudy.com/event1/index.m3u8?token=be82b451ce4d65886be2af5ba50ecaa53dc85712-62-1766410333-1766356333&ip=45.229.40.70
+
 
 
 
