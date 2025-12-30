@@ -79,6 +79,12 @@ button.saludo-btn {
   margin: 20px 0;
 }
 button.saludo-btn:hover { background: #219653; }
+button.back-to-main {
+  background: var(--primary);
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+button.back-to-main:hover { background: var(--primary-dark); }
 input {
   width: 100%;
   padding: 12px;
@@ -228,6 +234,7 @@ img.logo, img.profile-photo {
         <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
         <p style="text-align:center;"><b>Puntos:</b> <span id="points">0</span> | Racha: <span id="streak">0</span></p>
         <button id="btnToExercise">Practicar →</button>
+        <button class="back-to-main" id="btnBackToMainFromLearn">Volver al menú principal</button>
       </div>
     </div>
   </div>
@@ -240,6 +247,7 @@ img.logo, img.profile-photo {
         <button id="btnCheck">Responder</button>
         <p id="feedback" class="feedback"></p>
         <button id="btnNext" disabled>Siguiente</button>
+        <button class="back-to-main" id="btnBackToMainFromExercise">Volver al menú principal</button>
       </div>
     </div>
   </div>
@@ -250,6 +258,7 @@ img.logo, img.profile-photo {
         <p id="exampleEn"></p>
         <p><i id="exampleEs"></i></p>
         <button id="btnNextWord">Continuar →</button>
+        <button class="back-to-main" id="btnBackToMainFromExample">Volver al menú principal</button>
       </div>
     </div>
   </div>
@@ -407,7 +416,7 @@ const wordsLevel6 = [
   {en:"K'ayil", pron:"(k'ayil)", es:"Venta", exEn:"Wank k'ayil sa' li ch'atal.", exEs:"Hay venta en el mercado."}
 ];
 const wordsLevel7 = [
-  {en:"Tzuultaq'a", pron:"(tsuultak'a)", es:"Montaña sagrada/espíritu de la montaña", exEn:"Li tzuultaq'a naruusb'esink.", exEs:"La montaña sagrada nos protege."},
+  {en:"Tzuultaq'a", pron:"(tsuultak'a)", es:"Montaña sagrada", exEn:"Li tzuultaq'a naruusb'esink.", exEs:"La montaña sagrada nos protege."},
   {en:"Ha'", pron:"(já)", es:"Agua", exEn:"Nim li ha' sa' Río Dulce.", exEs:"Grande es el agua en Río Dulce."},
   {en:"Che'", pron:"(ché)", es:"Árbol", exEn:"Nim li che' sa' li k'iche'.", exEs:"Grande es el bosque."},
   {en:"Tz'ul", pron:"(ts'ul)", es:"Montaña", exEn:"Nim li tz'ul sa' Alta Verapaz.", exEs:"Grande es la montaña en Alta Verapaz."},
@@ -422,7 +431,6 @@ const wordsLevel7 = [
   {en:"Xam", pron:"(Sham)", es:"Fuego", exEn:"Nim li sham sa' li ceremonia.", exEs:"Grande es el fuego en la ceremonia."},
   {en:"Ch'och'", pron:"(ch'och')", es:"Tierra", exEn:"Loq'laj li ch'och'.", exEs:"Sagrada es la tierra."}
 ];
-
 let currentLevel = 0;
 let currentIndex = 0;
 let points = 0;
@@ -432,12 +440,10 @@ let totalWordsLearned = 0;
 let completedLevels = [];
 let maxStreak = 0;
 const elements = {};
-
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
 }
-
 function getCurrentWords() {
   switch(currentLevel) {
     case 1: return wordsLevel1;
@@ -450,7 +456,6 @@ function getCurrentWords() {
     default: return [];
   }
 }
-
 function resetAllProgress() {
   points = 0;
   streak = 0;
@@ -463,7 +468,6 @@ function resetAllProgress() {
   saveProgress();
   document.getElementById("btnContinueProgress").style.display = "none";
 }
-
 function loadLearnScreen() {
   const words = getCurrentWords();
   if (words.length === 0) {
@@ -478,7 +482,6 @@ function loadLearnScreen() {
   updateProgress();
   showScreen("learn");
 }
-
 function updateProgress() {
   const words = getCurrentWords();
   const percent = words.length > 0 ? (currentIndex / words.length) * 100 : 0;
@@ -486,26 +489,22 @@ function updateProgress() {
   elements.pointsEl.textContent = points;
   elements.streakEl.textContent = streak;
 }
-
 function updateStatsDisplay() {
   elements.wordsLearned.textContent = totalWordsLearned;
   elements.levelsCompleted.textContent = completedLevels.length;
   elements.totalPoints.textContent = points;
   elements.maxStreakEl.textContent = maxStreak;
 }
-
 function shareOnWhatsApp(text) {
   const message = encodeURIComponent(text + " 🇬🇹 Aprende q'eqchi' con Aatin aplicación del Profesor Fredy González de Río Dulce, Izabal!");
   window.open(`https://wa.me/?text=${message}`, '_blank');
 }
-
 function saveProgress() {
   localStorage.setItem('qeqchi_data', JSON.stringify({
     currentLevel, currentIndex, points, streak,
     totalWordsLearned, completedLevels, maxStreak
   }));
 }
-
 function loadProgress() {
   const data = localStorage.getItem('qeqchi_data');
   if (data) {
@@ -523,7 +522,6 @@ function loadProgress() {
     updateStatsDisplay();
   }
 }
-
 window.addEventListener('load', () => {
   elements.word = document.getElementById("word");
   elements.pron = document.getElementById("pron");
@@ -541,7 +539,6 @@ window.addEventListener('load', () => {
   elements.levelsCompleted = document.getElementById("levelsCompleted");
   elements.totalPoints = document.getElementById("totalPoints");
   elements.maxStreakEl = document.getElementById("maxStreak");
-
   document.getElementById("btnToThanks").onclick = () => showScreen("thanks");
   document.getElementById("btnBackToWelcome").onclick = () => showScreen("welcome");
   document.getElementById("btnToProfFredy").onclick = () => showScreen("profFredy");
@@ -550,8 +547,6 @@ window.addEventListener('load', () => {
   document.getElementById("btnBackToThanksFromLevel").onclick = () => showScreen("thanks");
   document.getElementById("btnToStats").onclick = () => { updateStatsDisplay(); showScreen("stats"); };
   document.getElementById("btnBackToWelcomeFromStats").onclick = () => showScreen("welcome");
-
-  // Seleccionar nivel: empieza desde la primera palabra, pero mantiene puntos/racha
   for (let i = 1; i <= 7; i++) {
     const btn = document.getElementById("btnStartLevel" + i);
     if (btn) btn.onclick = () => {
@@ -560,9 +555,7 @@ window.addEventListener('load', () => {
       loadLearnScreen();
     };
   }
-
   document.getElementById("btnContinueProgress").onclick = loadLearnScreen;
-
   document.getElementById("btnToExercise").onclick = () => {
     const word = getCurrentWords()[currentIndex];
     elements.exerciseWord.textContent = word.en;
@@ -572,7 +565,6 @@ window.addEventListener('load', () => {
     showingExample = false;
     showScreen("exercise");
   };
-
   document.getElementById("btnCheck").onclick = () => {
     const word = getCurrentWords()[currentIndex];
     let correct = word.es.toLowerCase().trim();
@@ -600,7 +592,6 @@ window.addEventListener('load', () => {
     }
     updateProgress();
   };
-
   document.getElementById("btnNext").onclick = () => {
     if (!showingExample) {
       const word = getCurrentWords()[currentIndex];
@@ -610,7 +601,6 @@ window.addEventListener('load', () => {
       showScreen("example");
     }
   };
-
   document.getElementById("btnNextWord").onclick = () => {
     currentIndex++;
     saveProgress();
@@ -620,7 +610,6 @@ window.addEventListener('load', () => {
       points += 50;
       updateStatsDisplay();
       saveProgress();
-
       if (currentLevel === 7) {
         const name = prompt("🎉 ¡FELICIDADES! Has completado los 7 niveles de Aatin! 🎉\n\nEscribe tu nombre para tu certificado:");
         if (name && name.trim() !== "") {
@@ -635,8 +624,6 @@ window.addEventListener('load', () => {
         }
         return;
       }
-
-      // Progresión automática si estamos en secuencia
       currentLevel++;
       currentIndex = 0;
       alert(`¡Felicidades! Completaste el Nivel ${currentLevel - 1}\n+50 puntos bonus\n\n¡Ahora pasamos al Nivel ${currentLevel}!`);
@@ -645,39 +632,41 @@ window.addEventListener('load', () => {
       loadLearnScreen();
     }
   };
-
+  document.getElementById("btnBackToMainFromLearn").onclick = () => {
+    saveProgress();
+    showScreen("welcome");
+  };
+  document.getElementById("btnBackToMainFromExercise").onclick = () => {
+    saveProgress();
+    showScreen("welcome");
+  };
+  document.getElementById("btnBackToMainFromExample").onclick = () => {
+    saveProgress();
+    showScreen("welcome");
+  };
   document.getElementById("shareStats").onclick = () => {
     const text = `Mis estadísticas en Aatin : ${totalWordsLearned} palabras, ${completedLevels.length}/7 niveles, ${points} puntos, racha ${maxStreak}`;
     shareOnWhatsApp(text);
   };
-
   document.getElementById("shareCert").onclick = () => {
-    shareOnWhatsApp("¡Obtuve mi certificado oficial de Aatin aplicacioón del Profesor Fredy González! 🇬🇹");
+    shareOnWhatsApp("¡Obtuve mi certificado oficial de Aatin aplicación del Profesor Fredy González! 🇬🇹");
   };
-
   document.getElementById("btnBackFromCert").onclick = () => showScreen("welcome");
-
   document.getElementById("modeToggle").onclick = () => {
     document.body.classList.toggle("dark");
     document.getElementById("modeToggle").textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
     localStorage.setItem("darkMode", document.body.classList.contains("dark"));
   };
-
   if (localStorage.getItem("darkMode") === "true") {
     document.body.classList.add("dark");
     document.getElementById("modeToggle").textContent = "☀️";
   }
-
-  loadProgress();
-
   document.getElementById("playSaludoBtn").onclick = () => {
     window.open("https://vocaroo.com/embed/1fXZrALjxOOh?autoplay=0", "_blank", "width=320,height=100");
   };
+  loadProgress();
 });
-
 window.addEventListener('beforeunload', saveProgress);
-
-// Service Worker para PWA (funciona offline después de la primera visita)
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('data:text/javascript,self.addEventListener("fetch",e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))))');
 }
