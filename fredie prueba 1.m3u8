@@ -8,7 +8,7 @@ https://guastream.com:3249/stream/play.m3u8
 #EXTVLCOPT:https://mi.tv/gt/canales/televisiete
 https://guastream.com:3695/stream/play.m3u8
 #EXTINF:-1 group-title="GUATEMALA",Canal 27
-#EXTVLCOPT:https://es.wikipedia.org/wiki/Canal_27_%28Guatemala%29
+#EXTVLCOPT:https://ch1-c27.duin.dev/hls/0/stream.m3u8
 https://smmc.me:5443/hls/stream.m3u8
 #EXTINF:-1 group-title="GUATEMALA",GUATEVISION
 #EXTVLCOPT:https://es.wikipedia.org/wiki/Canal_27_%28Guatemala%29
