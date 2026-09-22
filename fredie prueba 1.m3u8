@@ -396,7 +396,7 @@ https://stream.digitalgt.com:3136/live/multivisionlive.m3u8
 #EXTINF:-1 group-title="GUATEMALA",MULTIVISION SPORTS
 #EXTVLCOPT:
 https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
-#EXTINF:-1 group-title="DEPORTES",Madrid VS Mallorca
+#EXTINF:-1 group-title="DEPORTES",HCH TV2
 #EXTVLCOPT:
 https://live.streamhch.com/live/streams/hch1.m3u8
 #EXTINF:-1 group-title="DEPORTES",HCH TV
