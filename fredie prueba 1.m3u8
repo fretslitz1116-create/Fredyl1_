@@ -398,7 +398,7 @@ https://stream.digitalgt.com:3136/live/multivisionlive.m3u8
 https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
 #EXTINF:-1 group-title="DEPORTES",Madrid VS Mallorca
 #EXTVLCOPT:
-https://iaw5b.envivoslatam.org/espnplus3/tracks-v1a1/mono.m3u8?ip=190.106.213.246&token=5411eabbb6eef9157a40be629b2266611b4270c1-b2-1775361251-1775307251
-#EXTINF:-1 group-title="DEPORTES",Madrid VS Bayern
+https://live.streamhch.com/live/streams/hch1.m3u8
+#EXTINF:-1 group-title="DEPORTES",HCH TV
 #EXTVLCOPT
 https://j8nte.envivoslatam.org/hotflix/espn/index.m3u8?token=5014a27c767c7e2757e7d98767822f2dd3093e78-a5-1776323748-1776269748&ip=45.229.41.6
